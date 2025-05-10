@@ -1,12 +1,38 @@
-# React + Vite
+# 🌴 Far Away - Trip Packing List App 🧳[website]()
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive web app to help you organize and manage your packing list for a trip.
+Implementation of REACT states between parent-child as well as child-child components.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add items to your packing list with a quantity and description.
+- Check off items as you pack them.
+- Remove items from the list.
+- Clear the entire list.
+- Track total and packed items, including percentage packed.
+- Sort items by:
+  - **Input Order**
+  - **Description (alphabetical)**
+  - **Packed Status**
 
-## Expanding the ESLint configuration
+## 🛠️ How It Works
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Add Items**: Use the quantity selector and input field to describe the item (e.g., "2 shirts").
+2. **Manage List**: Items appear in a list with checkboxes to mark as packed and a delete icon to remove them.
+3. **Sorting Options**:
+   - **Sort by Input Order**: Shows items in the order they were added.
+   - **Sort by Description**: Sorts alphabetically by item name.
+   - **Sort by Packed Status**: Groups packed items together.
+4. **Clear List**: Removes all items from your packing list.
+
+## 🖼️ UI Highlights
+
+- Colorful and travel-themed design.
+- Responsive layout for different screen sizes.
+- Real-time updates on the number of packed items and progress percentage.
+
+## 🚀 Tech Stack
+
+- HTML
+- CSS
+- JavaScript (likely React based on the UI behavior)
